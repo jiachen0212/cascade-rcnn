@@ -1,0 +1,11 @@
+1. /usr/bin/ld: cannot find -lhdf5
+ ans: use the anaconda python-path
+
+ 2. cannot find -lopencv_imgcodecs
+ ans: if opencv3, https://blog.csdn.net/w113691/article/details/77942408
+
+ show opencv version:  pkg-config --modversion opencv
+
+ our machine is opencv2, keep the following:
+# USE_OPENCV := 0   means use opencv2
+# OPENCV_VERSION := 3
